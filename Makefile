@@ -10,6 +10,10 @@ README.md:  guessinggame.sh
 	echo ""  >> README.md
 	echo "**guessinggame.sh** contains the following number of lines:" >> README.md
 	wc -l guessinggame.sh | egrep -o [0-9]+ >> README.md
+	echo ""  >> README.md
+	echo "To be honest, I am **NOT SURE** whether or whether not I should count the number of lines (including blank lines) or just the lines with text of the bash file. I did the first option (see above)" >> README.md
+
+	
 
 clean:
 	rm README.md
